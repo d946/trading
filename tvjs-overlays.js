@@ -970,7 +970,7 @@ function DHistogramvue_type_script_lang_js_arrayLikeToArray(arr, len) { if (len 
             ctx.strokeStyle = this.neg_color;
             ctx.beginPath();
             ctx.moveTo(x, base);
-            ctx.lineTo(x, y2);
+            ctx.lineTo(x, y2); 
             ctx.stroke();
           }
         }
