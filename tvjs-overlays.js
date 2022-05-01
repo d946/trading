@@ -961,7 +961,7 @@ function DHistogramvue_type_script_lang_js_arrayLikeToArray(arr, len) { if (len 
             ctx.strokeStyle = this.pos_color;
             ctx.beginPath();
             ctx.moveTo(x, base);
-            ctx.lineTo(x, y1);
+            //ctx.lineTo(x, y1);
             ctx.stroke();
           }
 
